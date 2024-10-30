@@ -6,6 +6,8 @@ import urllib.parse
 app = Flask(__name__)
 
 # Facebook app credentials (ensure these are set as environment variables for security)
+FB_CLIENT_ID = "1060170592495587"
+FB_CLIENT_SECRET = "3086cf79fac4df9b9de6219434e6bf17"
 FB_REDIRECT_URI = "https://testingflaskapp-bbys.onrender.com/facebook-callback"
 
 # Start Facebook Login
