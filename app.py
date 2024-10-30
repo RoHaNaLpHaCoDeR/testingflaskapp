@@ -31,7 +31,7 @@ def hello_world():
 # Facebook Redirect URI to handle the callback
 @app.route("/facebook-callback", methods=["GET"])
 def facebook_callback():
-    print("hello world")
+    return 'Hello, World!'
     # code = request.args.get("code")
     # if code:
     #     # Exchange the code for an access token
