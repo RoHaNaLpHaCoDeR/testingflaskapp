@@ -25,8 +25,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    print("hello world")
-    # return 'Hello, World!'
+    # print("hello world")
+    return 'Hello, World!'
 
 # Facebook Redirect URI to handle the callback
 @app.route("/facebook-callback", methods=["GET"])
